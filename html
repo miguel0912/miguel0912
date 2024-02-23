@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>REGISTRO</title>
+</head>
+<body>
+<div class="contenedor">
+    <header>
+        <h2>Formulario de registro de estudiante</h2>
+    </header>
+<main>
+    <form class="form_register" action="Bienvenida.html">
+
+    <input type="text" placeholder="&#9889 Ingrese usuuario" required autofocus autocapitalize="off">
+    <br>
+    <input type="text" placeholder="&#9977 Ingrese nombre y apellido" required autofocus autocapitalize="off">
+    <br>
+    <input type="email" placeholder="&#9746 Ingrese Email" required autocapitalize="off">
+    <br>
+    <input type="text" placeholder="&#9742 Ingrese Telefono"  required autocapitalize="off">
+    <br>
+    <input type="password" placeholder="&#9978 Ingrese Password" required autocapitalize="off">
+    <br>
+    <input type="password" placeholder="&#9978 Reingrese mismo password"  required autocapitalize="off">
+
+    <br>
+
+<div id="terminos">
+    <input type="checkbox" required >Acepto terminos y condiciones
+    </div>
+    <br>
+<div class="btn_accion">
+    <button  class="btn_accion" type="submit">ENVIAR</button>
+    <button  class="btn_LIMPIAR" type="reset">CANCELAR</button>
+</div>
+</form>
+</main>
+</foote>
+    &copy;Todos los derechos reservados @estudiante 2024
+</footer>
+</div>
+</body>
+</html>
+
+HOJA ESTILOS CSS
+Este archivo debe ser vinculado mediante la etiqueta <link> dentro de la etiqueta <head> en el archivo html, así:
+html{
+    font-size: 16px;
+    font-family: sans-serif;
+}
+body{
+    background-color:aqua; 
+        
+}
+.contendor{
+    max-width: 450px;
+    height:auto;
+    background-color: coral;
+    margin:5% auto;
+    padding-bottom: 16px;
+}
+header{
+    width: 100%;
+    text-align: center;
+    padding:10px 0 5px;
+    border-top:solid 8px black;
+    margin-bottom: 5px;
+}
+hearder h2{
+    font-wight: bold;
+    color:black;
+    font-size: 18px;
+}
+
+.form_register{
+    padding:0 28px;
+    display: flex;
+    flex-direction: colum;
+    justify-content: space-between;
+    align-content: center;
+    background-color: silver;
+   
+}
+    
+btn_accion{
+    display: flex;
+    justify-content: space-around;
+    margin-top 16px;
+ 
+}
+input, .btn_enviar, .btn_limpiar{
+    background-color: whitesmoke:
+    padding: 8px;
+    margin: 8px 0;
+    outline:none;
+    trabsition: all .5s;
+}
+input:focus{
+    background-color: lightcyan;
+    border-color: darkblue;
+}
+.btn_enviar, .btn_limpiar{
+    width: 40%;
+    border-radius: 25px
+    background-color: lightseagreen;
+    color:white;
+    margin_left: 25px;
+}
+#terminos{
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items: center;
+}
+
+CODIGO FUENTE HTML 5 - FORMULARIO INICIO DE SESION-       #2
+
+!<DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./CSS/formulario_ok.CSS">
+    <title>INGRESO</title>
+</head>
+<body>
+<div class="contenedor">
+    <header>
+        <h2>Formulario de Inicio Sesion</h2>
+    </header>
+<main>
+    <form class="form_register" action="Bienvenida.html">
+
+    <input type="text" placeholder="&#9889 Ingrese usuuario" required autofocus autocapitalize="off">
+    <br>
+    <input type="text" placeholder="&#9977 Ingrese nombre y apellido" required autofocus autocapitalize="off">
+    <br>
+
+<div id="terminos">
+        <input type="checkbox" required >Acepto terminos y condiciones
+    </div>
+    <br>
+    <div class="btn_accion">
+        <button  class="btn_enviar" type="submit">INGRESAR</button>
+        <button  class="btn_limpiar" type="reset">CANCELAR</button>
+    </div>
+    </form>
+    </main>
+    </foote>
+        &copy;Todos los derechos reservados @estudiante 2024
+    </footer>
+</div>
+</body>
+</html>
